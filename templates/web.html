@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Diet and Health Planner</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h3 class="center-align">AI Diet and Health Planner</h3>
+        <form action="/submit" method="POST">
+            <div class="input-field">
+                <input id="lifestyle" type="text" name="lifestyle" required>
+                <label for="lifestyle">Lifestyle</label>
+            </div>
+            <div class="input-field">
+                <input id="current_health" type="text" name="current_health" required>
+                <label for="current_health">Current Health</label>
+            </div>
+            <div class="input-field">
+                <input id="current_diet" type="text" name="current_diet" required>
+                <label for="current_diet">Current Diet</label>
+            </div>
+            <div class="input-field">
+                <input id="exercise" type="text" name="exercise" required>
+                <label for="exercise">Exercise</label>
+            </div>
+            <div class="input-field">
+                <input id="sleep" type="text" name="sleep" required>
+                <label for="sleep">Sleep</label>
+            </div>
+            <div class="input-field">
+                <input id="recommendation" type="text" name="recommendation" required>
+                <label for="recommendation">Recommendation</label>
+            </div>
+            <div class="center-align">
+                <button class="btn waves-effect waves-light" type="submit">Submit
+                    <i class="material-icons right">send</i>
+                </button>
+            </div>
+        </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
