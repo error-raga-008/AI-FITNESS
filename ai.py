@@ -6,7 +6,7 @@ import google.generativeai as genai
 app = Flask(__name__)
 
 # Configure the Gemini API key
-genai.configure(api_key="AIzaSyBh8h_vMfbism7OTejfRoFuVtkimo_1Gq8")
+genai.configure(api_key="API KEY")
 
 @app.route('/generated_page')
 def generated_page():
